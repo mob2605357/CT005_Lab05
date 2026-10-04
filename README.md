@@ -1,5 +1,7 @@
 # CT005 Lab05 Trần Ngọc Mơ
 
+#### CT005 - Lab05 - Trần Ngọc Mơ - B2605357 - 26D1A2
+
 ## Thông tin sinh viên
 
 - Họ và tên: Trần Ngọc Mơ
