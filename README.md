@@ -26,6 +26,8 @@ Liên kết YouTube: <https://www.youtube.com/watch?v=dMne5bNr9-w>
 
 <https://github.com/mob2605357/CT005_Lab05>
 
+Website GitHub Pages: <https://mob2605357.github.io/CT005_Lab05/>
+
 ## Nguồn nội dung và giấy phép
 
 - Ảnh báo cáo: [Ashutosh Gupta trên Unsplash](https://unsplash.com/photos/NASjMHJ9OhI), sử dụng theo Unsplash License.
