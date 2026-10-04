@@ -13,8 +13,8 @@
 ## Sản phẩm
 
 - `Lab05_Ex1.1.pdf`: tài liệu một trang về ứng dụng công nghệ số trong học tập.
-- `Lab05_Ex1.2.pdf`: bản nội dung chuẩn bị cho hoạt động cộng tác Google Docs.
-- Minh chứng Ex1.2: chỉ bổ sung ảnh chụp Google Docs thật sau khi thành viên nhóm chỉnh sửa, bình luận và tạo lịch sử phiên bản.
+- `Lab05_Ex1.2.pdf`: bản tài liệu được xuất từ Google Docs sau hoạt động cộng tác.
+- `Lab05_Ex1.2.png`: ảnh chụp lịch sử phiên bản thực tế trên Google Docs.
 - `Lab05_Ex2.1.png`: infographic Lợi ích của công nghệ số trong học tập.
 - `Lab05_Ex2.2.mp4`: video cục bộ khoảng 30 giây, không đưa lên GitHub theo yêu cầu của bài.
 - `Lab5_Ex3.1.html`: trang giới thiệu cá nhân và ba sản phẩm.
@@ -44,6 +44,7 @@ Website GitHub Pages: <https://mob2605357.github.io/CT005_Lab05/>
 CT005_Lab05/
 ├── Lab05_Ex1.1.pdf
 ├── Lab05_Ex1.2.pdf
+├── Lab05_Ex1.2.png
 ├── Lab05_Ex2.1.png
 ├── Lab5_Ex3.1.html
 ├── BaoCaoTinHocVanPhong.docx
