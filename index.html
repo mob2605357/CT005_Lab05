@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sản phẩm Bài thực hành 05 của sinh viên Trần Ngọc Mơ">
+  <title>CT005 Lab05 Trần Ngọc Mơ</title>
+  <style>
+    :root { --navy:#0b2a4a; --blue:#1769e0; --cyan:#20b8cd; --ink:#17212b; --muted:#5a6876; --pale:#eaf6fb; --line:#d9e1e7; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:Arial, Helvetica, sans-serif; color:var(--ink); background:#f6fafc; line-height:1.6; }
+    a { color:var(--blue); }
+    .hero { min-height:78vh; display:grid; place-items:center; padding:64px 22px; color:white; background:linear-gradient(135deg,var(--navy),#104c88 58%,var(--cyan)); }
+    .hero-inner { width:min(1080px,100%); display:grid; grid-template-columns:1.15fr .85fr; gap:48px; align-items:center; }
+    .kicker { margin:0 0 12px; font-size:.83rem; font-weight:700; letter-spacing:.15em; text-transform:uppercase; color:#9eeaf4; }
+    h1 { margin:0 0 18px; max-width:760px; font-size:clamp(2.5rem,7vw,5.8rem); line-height:.98; letter-spacing:-.045em; }
+    .lead { margin:0; max-width:680px; font-size:clamp(1rem,2vw,1.25rem); color:#dceefa; }
+    .identity { padding:28px; border:1px solid rgba(255,255,255,.25); border-radius:24px; background:rgba(255,255,255,.1); backdrop-filter:blur(10px); }
+    .identity strong { display:block; font-size:1.35rem; }
+    .identity span { display:block; color:#dceefa; }
+    nav { position:sticky; top:0; z-index:10; padding:12px 22px; background:rgba(255,255,255,.94); border-bottom:1px solid var(--line); backdrop-filter:blur(12px); }
+    nav div { width:min(1080px,100%); margin:auto; display:flex; gap:18px; align-items:center; overflow:auto; }
+    nav a { color:var(--navy); font-weight:700; text-decoration:none; white-space:nowrap; }
+    main { width:min(1080px,calc(100% - 36px)); margin:0 auto; padding:70px 0 90px; }
+    section { margin-bottom:78px; }
+    h2 { margin:0 0 10px; font-size:clamp(1.8rem,4vw,3rem); line-height:1.12; color:var(--navy); }
+    .section-intro { max-width:760px; margin:0 0 28px; color:var(--muted); }
+    .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; }
+    .card { padding:24px; border:1px solid var(--line); border-radius:20px; background:white; box-shadow:0 12px 40px rgba(11,42,74,.07); }
+    .card h3 { margin:0 0 8px; color:var(--navy); }
+    .card p { margin:0 0 18px; color:var(--muted); }
+    .button { display:inline-flex; align-items:center; justify-content:center; min-height:44px; padding:9px 16px; border-radius:12px; background:var(--blue); color:white; font-weight:700; text-decoration:none; }
+    .button.secondary { border:1px solid var(--blue); color:var(--blue); background:white; }
+    .media { overflow:hidden; border-radius:24px; border:1px solid var(--line); background:white; box-shadow:0 18px 55px rgba(11,42,74,.1); }
+    .media img { display:block; width:100%; height:auto; }
+    .video-shell { aspect-ratio:16/9; display:grid; place-items:center; padding:34px; text-align:center; background:linear-gradient(135deg,#0b2a4a,#1769e0); color:white; }
+    .video-shell p { max-width:650px; color:#dceefa; }
+    .source-list { display:grid; gap:12px; padding:0; list-style:none; }
+    .source-list li { padding:14px 16px; border-left:4px solid var(--cyan); background:white; }
+    footer { padding:28px 22px; text-align:center; color:#dceefa; background:var(--navy); }
+    @media (max-width:800px) { .hero-inner,.grid { grid-template-columns:1fr; } .hero { min-height:auto; } }
+  </style>
+</head>
+<body>
+  <header class="hero" id="dau-trang">
+    <div class="hero-inner">
+      <div>
+        <p class="kicker">CT005 Bài thực hành 05</p>
+        <h1>Công nghệ số trong học tập</h1>
+        <p class="lead">Bộ sản phẩm gồm tài liệu PDF, infographic, video ngắn và trang web, được quản lý phiên bản trên GitHub và ghi rõ nguồn tài nguyên.</p>
+      </div>
+      <div class="identity">
+        <strong>Trần Ngọc Mơ</strong>
+        <span>MSSV B2605357</span>
+        <span>Lớp 26D1A2 - Khóa 52</span>
+        <span>Ngành Truyền thông đa phương tiện</span>
+      </div>
+    </div>
+  </header>
+  <nav aria-label="Điều hướng chính"><div><a href="#san-pham">Sản phẩm</a><a href="#infographic">Infographic</a><a href="#video">Video</a><a href="#ban-quyen">Bản quyền</a><a href="#dau-trang">Đầu trang</a></div></nav>
+  <main>
+    <section id="san-pham">
+      <h2>Ba sản phẩm chính</h2>
+      <p class="section-intro">Mỗi sản phẩm giải quyết một phần của quy trình tạo, trình bày và chia sẻ nội dung số.</p>
+      <div class="grid">
+        <article class="card"><h3>Tài liệu số</h3><p>Báo cáo ngắn về ứng dụng công nghệ số trong học tập, định dạng một trang và có ghi nguồn.</p><a class="button" href="Lab05_Ex1.1.pdf">Mở PDF</a></article>
+        <article class="card"><h3>Infographic</h3><p>Năm lợi ích của công nghệ số, trình bày bằng màu xanh dương và trắng.</p><a class="button" href="Lab05_Ex2.1.png">Mở ảnh PNG</a></article>
+        <article class="card"><h3>Video</h3><p>Video khoảng 30 giây dùng cảnh quay Pexels và nhạc CC0 từ Freesound.</p><a class="button secondary" href="#video">Xem trạng thái</a></article>
+      </div>
+    </section>
+    <section id="infographic">
+      <h2>Lợi ích của công nghệ số</h2>
+      <p class="section-intro">Công nghệ hỗ trợ học linh hoạt, hợp tác, cá nhân hóa, sáng tạo nội dung và quản lý tiến độ.</p>
+      <figure class="media"><img src="Lab05_Ex2.1.png" alt="Infographic về năm lợi ích của công nghệ số trong học tập"></figure>
+    </section>
+    <section id="video">
+      <h2>Video giới thiệu</h2>
+      <div class="media video-shell">
+        <div><h3>Video lợi ích của công nghệ số</h3><p>Video được lưu trên YouTube theo yêu cầu của bài và không đưa trực tiếp lên GitHub.</p><a class="button" href="https://www.youtube.com/watch?v=dMne5bNr9-w" target="_blank" rel="noopener">Xem trên YouTube</a></div>
+      </div>
+    </section>
+    <section id="ban-quyen">
+      <h2>Nguồn và giấy phép</h2>
+      <ul class="source-list">
+        <li>Ảnh báo cáo: Ashutosh Gupta trên Unsplash, theo Unsplash License.</li>
+        <li>Video: Anton Sergeevich trên Pexels, theo Pexels License.</li>
+        <li>Nhạc: 30-Second Upbeat Background Loop của circlevalleysounds trên Freesound, giấy phép CC0.</li>
+        <li>Infographic: nền minh họa tạo bằng công cụ AI, chữ và bố cục được chỉnh sửa thủ công.</li>
+        <li>Mã nguồn: phát hành theo MIT License.</li>
+      </ul>
+    </section>
+  </main>
+  <footer>Lab05 - Trần Ngọc Mơ - B2605357 - 2026</footer>
+</body>
+</html>
